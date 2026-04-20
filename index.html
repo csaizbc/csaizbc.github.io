@@ -8,7 +8,6 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   <style>
-    /* Logo hover效果 */
     .logo {
       width: 80px;
       transition: transform 0.2s ease;
@@ -61,8 +60,10 @@
       </td>
 
       <!-- 右 logo -->
-      <td style="padding:20px; width:30%; text-align:center;">
-        <img src="images/zju_logo.svg" class="logo">
+      <td style="padding:20px; width:30%; text-align:center; vertical-align:top;">
+        <img src="images/zju_logo.svg"
+             onerror="this.src='images/zju_logo.png'"
+             class="logo">
       </td>
 
     </tr>
@@ -92,26 +93,23 @@
   <!-- Experience -->
   <table style="width:100%;max-width:800px;margin:auto;">
     <tr>
-      <td style="padding:20px;">
+
+      <!-- 左内容 -->
+      <td style="padding:20px; width:70%; vertical-align:top;">
         <h2>Experience</h2>
 
-        <!-- 清华 -->
         <p>
-          <strong>
-            Tsinghua University, Institute for Interdisciplinary Information Sciences
-          </strong><br>
+          <strong>Tsinghua University</strong><br>
           Research Assistant<br>
           Apr. 2026 – Present
         </p>
 
-        <!-- Ant -->
         <p>
           <strong>Ant Group</strong><br>
           Software Engineer<br>
           Jan. 2026 – Apr. 2026
         </p>
 
-        <!-- Crypto -->
         <p>
           <strong>Crypto Research</strong><br>
           Technical Partner<br>
@@ -127,14 +125,12 @@
           <li>Built research-to-production pipeline</li>
         </ul>
 
-        <!-- Tuyoo -->
         <p>
           <strong>Tuyoo Games</strong><br>
           Software Engineer<br>
           Dec. 2024 – Jul. 2025
         </p>
 
-        <!-- Perfect World -->
         <p>
           <strong>Perfect World</strong><br>
           Software Engineer<br>
@@ -142,6 +138,21 @@
         </p>
 
       </td>
+
+      <!-- 右 logo -->
+      <td style="padding:20px; width:30%; text-align:center; vertical-align:top;">
+
+        <img src="images/thu_logo.svg"
+             onerror="this.src='images/thu_logo.png'"
+             class="logo"
+             style="margin-bottom:30px;">
+
+        <img src="images/zju_logo.svg"
+             onerror="this.src='images/zju_logo.png'"
+             class="logo">
+
+      </td>
+
     </tr>
   </table>
 
