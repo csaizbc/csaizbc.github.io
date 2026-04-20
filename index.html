@@ -9,7 +9,7 @@
 
   <style>
     .logo {
-      width: 80px;
+      width: 60px;
       transition: transform 0.2s ease;
     }
     .logo:hover {
@@ -25,18 +25,14 @@
   <table style="width:100%;max-width:800px;margin:auto;">
     <tr>
       <td style="padding:2.5%;width:63%;vertical-align:middle">
-
         <p class="name" style="text-align: center;">
           Baocheng Zeng 曾宝成
         </p>
-
         <p style="text-align:center">
           <a href="mailto:z1154375864@zuaa.zju.edu.cn">Email</a> &nbsp;/&nbsp;
           <a href="https://github.com/csaizbc">Github</a>
         </p>
-
       </td>
-
       <td style="padding:2.5%;width:37%;">
         <img style="width:100%;border-radius:50%;" src="images/zbc2026.jpg">
       </td>
@@ -46,26 +42,25 @@
   <!-- Education -->
   <table style="width:100%;max-width:800px;margin:auto;">
     <tr>
-
-      <!-- 左 -->
-      <td style="padding:20px; width:70%; vertical-align:top;">
+      <td style="padding:20px;">
         <h2>Education</h2>
 
-        <p>
-          <strong>Zhejiang University</strong><br>
-          B.S. in Control Science and Engineering (Automation)<br>
-          Sep. 2018 – Jun. 2022
-        </p>
+        <table style="width:100%;">
+          <tr>
+            <td style="width:80%;">
+              <strong>Zhejiang University</strong><br>
+              B.S. in Control Science and Engineering (Automation)<br>
+              Sep. 2018 – Jun. 2022
+            </td>
+            <td style="width:20%; text-align:right;">
+              <img src="images/zju_logo.svg"
+                   onerror="this.src='images/zju_logo.png'"
+                   class="logo">
+            </td>
+          </tr>
+        </table>
 
       </td>
-
-      <!-- 右 logo -->
-      <td style="padding:20px; width:30%; text-align:center; vertical-align:top;">
-        <img src="images/zju_logo.svg"
-             onerror="this.src='images/zju_logo.png'"
-             class="logo">
-      </td>
-
     </tr>
   </table>
 
@@ -93,23 +88,33 @@
   <!-- Experience -->
   <table style="width:100%;max-width:800px;margin:auto;">
     <tr>
-
-      <!-- 左内容 -->
-      <td style="padding:20px; width:70%; vertical-align:top;">
+      <td style="padding:20px;">
         <h2>Experience</h2>
 
-        <p>
-          <strong>Tsinghua University</strong><br>
-          Research Assistant<br>
-          Apr. 2026 – Present
-        </p>
+        <!-- 清华 -->
+        <table style="width:100%; margin-bottom:15px;">
+          <tr>
+            <td style="width:80%;">
+              <strong>Tsinghua University</strong><br>
+              Research Assistant<br>
+              Apr. 2026 – Present
+            </td>
+            <td style="width:20%; text-align:right;">
+              <img src="images/thu_logo.svg"
+                   onerror="this.src='images/thu_logo.png'"
+                   class="logo">
+            </td>
+          </tr>
+        </table>
 
+        <!-- Ant -->
         <p>
           <strong>Ant Group</strong><br>
           Software Engineer<br>
           Jan. 2026 – Apr. 2026
         </p>
 
+        <!-- Crypto -->
         <p>
           <strong>Crypto Research</strong><br>
           Technical Partner<br>
@@ -117,20 +122,23 @@
         </p>
         <ul style="margin-top:-10px;">
           <li>Built end-to-end quantitative trading system covering data pipeline, backtesting, and execution</li>
-          <li>Implemented vectorized and event-driven backtesting frameworks (Python / C++)</li>
-          <li>Developed low-latency real-time data pipeline (WebSocket)</li>
-          <li>Processed large-scale financial datasets (OHLCV, order book, trade flow)</li>
-          <li>Constructed alpha factors and ML-based signals</li>
-          <li>Designed evaluation framework (IC, Sharpe, drawdown, cost)</li>
-          <li>Built research-to-production pipeline</li>
+          <li>Implemented vectorized and event-driven backtesting frameworks (Python / C++) for time-series and cross-sectional strategies</li>
+          <li>Developed low-latency data pipeline with WebSocket-based real-time streaming and signal generation</li>
+          <li>Processed large-scale financial datasets (OHLCV, order book, trade flow) with efficient data structures and vectorized computation</li>
+          <li>Constructed alpha factors and applied statistical / machine learning models for signal generation</li>
+          <li>Designed evaluation framework including IC, Sharpe Ratio, drawdown, and transaction cost modeling</li>
+          <li>Built integrated research-to-production pipeline for systematic trading systems</li>
+          <li>Demonstrated stable factor performance with positive IC and risk-adjusted returns in backtesting</li>
         </ul>
 
+        <!-- Tuyoo -->
         <p>
           <strong>Tuyoo Games</strong><br>
           Software Engineer<br>
           Dec. 2024 – Jul. 2025
         </p>
 
+        <!-- Perfect World -->
         <p>
           <strong>Perfect World</strong><br>
           Software Engineer<br>
@@ -138,30 +146,8 @@
         </p>
 
       </td>
-
-      <!-- 右 logo -->
-      <td style="padding:20px; width:30%; text-align:center; vertical-align:top;">
-
-        <img src="images/thu_logo.svg"
-             onerror="this.src='images/thu_logo.png'"
-             class="logo"
-             style="margin-bottom:30px;">
-
-        <img src="images/zju_logo.svg"
-             onerror="this.src='images/zju_logo.png'"
-             class="logo">
-
-      </td>
-
     </tr>
   </table>
-
-  <!-- ClustrMaps -->
-  <div style="text-align:center; margin-top:40px;">
-    <script type="text/javascript" id="clustrmaps" 
-      src="//clustrmaps.com/map_v2.js?d=Ka5ZnYUuxpFsEfQ1QWnfRO28-Fb0-mJpIe9LW3bpbiA">
-    </script>
-  </div>
 
 </body>
 </html>
