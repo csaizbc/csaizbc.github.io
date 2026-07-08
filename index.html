@@ -148,50 +148,18 @@
       </td>
     </tr>
   </table>
-
-  <!-- Site Analytics / Visitor Counter -->
-<div id="site-stats" style="max-width:800px;margin:40px auto;text-align:center;font-size:14px;color:#555;">
-  <p style="margin-bottom:10px;">
-    Global research profile · Privacy-friendly analytics powered by
-    <a href="https://www.goatcounter.com/" target="_blank" rel="noopener">GoatCounter</a>
-  </p>
-
-  <div id="goatcounter-visits"></div>
-</div>
-
-<script>
-  var t = setInterval(function() {
-    if (window.goatcounter && window.goatcounter.visit_count) {
-      clearInterval(t);
-      window.goatcounter.visit_count({
-        append: '#goatcounter-visits',
-        path: 'TOTAL',
-        no_branding: true,
-        style: `
-          div {
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            background: #fafafa;
-            color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0 auto;
-          }
-          #gcvc-for {
-            font-size: 12px;
-            color: #777;
-          }
-          #gcvc-views {
-            font-size: 24px;
-            font-weight: 600;
-          }
-        `
-      });
-    }
-  }, 100);
-</script>
-
-<script data-goatcounter="https://csaizbc.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+  <!-- Site Analytics -->
+  <div id="site-stats" style="max-width:800px;margin:40px auto;text-align:center;font-size:14px;color:#666;">
+    <p>
+      Global research profile · Privacy-friendly analytics powered by
+      <a href="https://www.goatcounter.com/" target="_blank" rel="noopener" style="color:#f28c28;">
+        GoatCounter
+      </a>
+    </p>
+  </div>
+  
+  <script data-goatcounter="https://csaizbc.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
 
 </body>
 </html>
