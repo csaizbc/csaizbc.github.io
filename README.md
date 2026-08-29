@@ -6,4 +6,3 @@ https://csaizbc.github.io/
 - `stylesheet.css`: responsive visual system
 - `images/`: portrait and institutional marks
 - `documents/certificates/`: public award certificates
-- `documents/patents/`: public patent records
