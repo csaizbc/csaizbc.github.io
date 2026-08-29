@@ -172,10 +172,99 @@
       </div>
     </section>
 
+    <section class="section selected-research-section" id="selected-research" aria-labelledby="selected-research-title">
+      <div class="section-shell section-grid">
+        <header class="section-heading">
+          <p class="section-index">02 / Selected Research</p>
+          <h2 id="selected-research-title">Research in practice</h2>
+          <p>
+            Three projects connecting research questions, methods, and documented outputs across my current interests.
+          </p>
+        </header>
+
+        <div class="selected-research-list">
+          <article class="selected-research-item">
+            <span class="item-number" aria-hidden="true">01</span>
+            <div class="selected-research-content">
+              <p class="project-meta">Artificial Intelligence · Ongoing</p>
+              <h3>Auditable LLM Agents for Quantitative Research</h3>
+              <dl class="project-facts">
+                <div>
+                  <dt>Question</dt>
+                  <dd>How can an LLM-agent system reconstruct a quantitative strategy from a research report while keeping sources, assumptions, and human decisions traceable?</dd>
+                </div>
+                <div>
+                  <dt>Method</dt>
+                  <dd>Document grounding, structured strategy specifications, tool use, execution traces, and human review gates.</dd>
+                </div>
+                <div>
+                  <dt>Output</dt>
+                  <dd>
+                    An end-to-end prototype translating report-derived specifications into executable backtests.
+                    <a href="#tsinghua-research">Tsinghua University IIIS, 2026–present <span aria-hidden="true">↓</span></a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="selected-research-item">
+            <span class="item-number" aria-hidden="true">02</span>
+            <div class="selected-research-content">
+              <p class="project-meta">Quantitative Finance · Preprint, 2026</p>
+              <h3>Point-in-Time Evaluation Before Alpha</h3>
+              <dl class="project-facts">
+                <div>
+                  <dt>Question</dt>
+                  <dd>Can public BTC perpetual-futures archives support genuinely point-in-time factor evaluation before any alpha claim is made?</dd>
+                </div>
+                <div>
+                  <dt>Method</dt>
+                  <dd>Event, publication, and availability timestamps; data and rule audits; matched-budget validation; and a one-time historical holdout.</dd>
+                </div>
+                <div>
+                  <dt>Output</dt>
+                  <dd>
+                    A scoped negative result: no evidence of agent superiority or profitability under primary costs.
+                    <a href="https://arxiv.org/abs/2608.25348" target="_blank" rel="noopener noreferrer">arXiv:2608.25348 <span aria-hidden="true">↗</span></a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="selected-research-item">
+            <span class="item-number" aria-hidden="true">03</span>
+            <div class="selected-research-content">
+              <p class="project-meta">Financial Machine Learning · Ongoing applied research</p>
+              <h3>Cost-Aware Factor Research &amp; Model Validation</h3>
+              <dl class="project-facts">
+                <div>
+                  <dt>Question</dt>
+                  <dd>How can factor candidates be tested against instability, turnover, transaction costs, and implementation constraints?</dd>
+                </div>
+                <div>
+                  <dt>Method</dt>
+                  <dd>Vectorized factor screening with IC/ICIR and robustness diagnostics, followed by drawdown, cost, and event-driven simulation analysis.</dd>
+                </div>
+                <div>
+                  <dt>Output</dt>
+                  <dd>
+                    A research stack integrating market-data pipelines, factor analysis, portfolio evaluation, and execution-oriented simulation.
+                    <a href="#coreline-research">Coreline Systems Limited, 2025–present <span aria-hidden="true">↓</span></a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="section publications-section" id="publications" aria-labelledby="publications-title">
       <div class="section-shell section-grid">
         <header class="section-heading">
-          <p class="section-index">02 / Publications</p>
+          <p class="section-index">03 / Publications</p>
           <h2 id="publications-title">Selected work</h2>
           <p>
             Research spanning quantitative methodology, trustworthy agent assistance, and learning-based robotics.
@@ -295,7 +384,7 @@
     <section class="section experience-section" id="experience" aria-labelledby="experience-title">
       <div class="section-shell section-grid">
         <header class="section-heading section-heading-light">
-          <p class="section-index">03 / Experience</p>
+          <p class="section-index">04 / Experience</p>
           <h2 id="experience-title">Research meets engineering</h2>
           <p>
             My background in production software informs how I design research: with explicit evaluation, reproducible workflows, and attention to implementation constraints.
@@ -303,7 +392,7 @@
         </header>
 
         <div class="timeline">
-          <article class="timeline-item">
+          <article class="timeline-item" id="tsinghua-research">
             <div class="timeline-date">
               <time datetime="2026-04">Apr 2026</time>
               <span>Present</span>
@@ -322,7 +411,7 @@
             </div>
           </article>
 
-          <article class="timeline-item">
+          <article class="timeline-item" id="coreline-research">
             <div class="timeline-date">
               <time datetime="2025-07">Jul 2025</time>
               <span>Present</span>
@@ -350,7 +439,7 @@
             </div>
           </article>
 
-          <article class="timeline-item timeline-item-compact">
+          <article class="timeline-item">
             <div class="timeline-date">
               <time datetime="2024-12">Dec 2024</time>
               <span>Jul 2025</span>
@@ -358,10 +447,13 @@
             <div class="timeline-content">
               <h3>Front-End Software Engineer</h3>
               <p class="organization">Tuyoo Games · Cocos Creator / TypeScript</p>
+              <p>
+                Built reusable QA and configuration-auditing tools, and delivered cross-platform integrations for international and mini-game releases.
+              </p>
             </div>
           </article>
 
-          <article class="timeline-item timeline-item-compact">
+          <article class="timeline-item">
             <div class="timeline-date">
               <time datetime="2022-07">Jul 2022</time>
               <span>Dec 2024</span>
@@ -369,6 +461,9 @@
             <div class="timeline-content">
               <h3>Junior Software Engineer</h3>
               <p class="organization">Perfect World · Unity / Lua</p>
+              <p>
+                Developed and optimized production Unity/Lua client systems spanning event-driven UI, client-server communication, procedural geometry, and multiplayer synchronization.
+              </p>
             </div>
           </article>
         </div>
@@ -378,7 +473,7 @@
     <section class="section education-section" id="education" aria-labelledby="education-title">
       <div class="section-shell section-grid">
         <header class="section-heading">
-          <p class="section-index">04 / Education</p>
+          <p class="section-index">05 / Education</p>
           <h2 id="education-title">Foundations in control, learning &amp; systems</h2>
           <p>
             Training in automation gave me a foundation in modeling and control; subsequent research and engineering work extended it to machine learning and quantitative systems.
@@ -460,7 +555,7 @@
     <section class="contact-band" aria-labelledby="contact-title">
       <div class="section-shell contact-shell">
         <div>
-          <p class="section-index">05 / Contact</p>
+          <p class="section-index">06 / Contact</p>
           <h2 id="contact-title">Let's discuss research.</h2>
         </div>
         <p>
