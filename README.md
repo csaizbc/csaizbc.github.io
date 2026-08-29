@@ -5,4 +5,5 @@ https://csaizbc.github.io/
 - `index.html`: page content and metadata
 - `stylesheet.css`: responsive visual system
 - `images/`: portrait and institutional marks
-- `documents/`: public supporting documents and certificates
+- `documents/certificates/`: public award certificates
+- `documents/patents/`: public patent records
